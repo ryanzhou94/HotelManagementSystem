@@ -1,0 +1,11 @@
+#view{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    width: 100%;
+    /* height: 200px; */
+}
+
+.viewButton{
+    font-size: 2em;
+}

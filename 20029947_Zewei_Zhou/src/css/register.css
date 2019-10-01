@@ -1,0 +1,25 @@
+#divForRegister{
+    position: absolute;
+    width: 20%;
+    left: 39%;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 15px;
+}
+#login{
+    text-align: center;
+    font-size: 35px;
+    color: #FFD700;
+    font-weight: 600;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.register{
+    width: 95%;
+    height: 25px;
+    font-size: 18px;
+}
+#registerHint{
+    color: red;
+}

@@ -1,0 +1,23 @@
+        #navigator {
+            position: fixed;
+            z-index: 999999;
+            box-shadow: 2px 2px 2px 2px #696969;
+            height: 60px;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background-color: white;
+        }
+        #textInNavi {
+            position: absolute;
+            right: 5%;
+            bottom: 5%;
+            color: black;
+        }
+        #hotelName {
+            position: absolute;
+            color: black;
+            bottom: -5px;
+            left: 2%;
+            font-size: 55px;
+        }

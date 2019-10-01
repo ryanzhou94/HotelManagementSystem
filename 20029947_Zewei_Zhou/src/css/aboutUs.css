@@ -1,0 +1,18 @@
+#aboutUs{
+    position: relative;
+    margin-top: 14%;
+    background-color: thistle;
+    width: 56%;
+    margin-left: 22%;
+    opacity: 0.85;
+}
+
+#returnButton{
+    position: relative;
+    margin-left: 47%;
+}
+
+#returnButton button{
+    position: relative;
+    width: 10%;
+}

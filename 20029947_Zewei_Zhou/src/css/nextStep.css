@@ -1,0 +1,36 @@
+/*  css for div of the view table */
+        #divOfFloor {
+            position: absolute;
+            left: 25%;
+            width: 50%;
+            top: 15%;
+        }
+
+        /* css for the view table */
+        #viewOfFloor {
+            height: 400px;
+            background-color: white;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        .emptyRow {
+            border: 0;
+        }
+
+        #stairs {
+            color: red;
+            border: 0;
+            font-size: 35px;
+        }
+
+        #floor{
+            text-align-last: center;
+        }
+
+        .room{
+            background-color:#6699FF;
+        }
+        

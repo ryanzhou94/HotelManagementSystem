@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Register
+        </title>
+        <link rel="stylesheet" type="text/css" href="../css/button.css">    
+        <link rel="stylesheet" type="text/css" href="../css/background.css">
+        <link rel="stylesheet" type="text/css" href="../css/register.css">
+        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="../js/register.js"></script>
+    </head>
+    <body>
+        <img src="../images/login1.jpg" id="background" />
+        
+        <div id="login">
+            Register Your Accout Now!
+        </div>
+        <div id="divForRegister">
+            <span id="registerHint"></span><br>
+            Username:<br><input type="text" id="username" class="register" /><br />
+            Password:<br><input type="password" id="password" class="register" /><br />
+            First name: <br><input type="text" id="firstname" class="register" /><br />
+            Last name: <br><input type="text" id="lastname" class="register" /><br />
+            Passport ID: <br><input type="text" id="passport" class="register" /><br />
+            Telephone number: <br><input type="text" id="telephone" class="register" /><br />
+            E-mail: <br><input type="text" id="email" class="register" /><br />
+            <input type="button" value="register" onclick="checkRegister()" class="button" />
+            <a href="login.html"><button type="button">Back</button></a>&nbsp
+        </div>
+        
+    </body>
+</html>
+

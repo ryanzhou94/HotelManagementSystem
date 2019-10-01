@@ -1,0 +1,12 @@
+#selectPeriod{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+}
+
+#bookTable{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    background-color: white;
+}

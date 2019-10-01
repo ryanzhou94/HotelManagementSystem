@@ -1,0 +1,18 @@
+#bookTable{
+    position: relative;
+    margin-top: 6.6%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 12px;
+    font-size: 12px;
+}
+.roomNumber{
+    text-align: center;
+}
+.bookId{
+    text-align: center;
+}
+.floor{
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Login System
+        </title>
+        <link rel="stylesheet" type="text/css" href="../css/button.css">
+        <link rel="stylesheet" type="text/css" href="../css/background.css">
+        <link rel="stylesheet" type="text/css" href="../css/login.css">
+        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/login.js"></script>
+    </head>
+    <body>
+        <img src="../images/login1.jpg" id="background"/>
+        <div id="hotel" onclick="location='../index.php'">Sunny Isle</div>
+        <div id="divForTable">
+            <table border="0" id="loginTable">
+                <tr>
+                    <th id="login">
+                        <strong>Log in</strong>
+                        <br>
+                        <span id="loginHint"></span>
+                        <br>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Username:<br><input type="text" id="username" class="inputBox"/> <br><span id="usernameHint" class="hint"></span> <br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password:<br> <input type="password" id="password" class="inputBox"/> <br><span id="passwordHint" class="hint"></span> <br />
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <div id="divForButton">
+                <input type="button" value="Login" onclick="checkLogin()" class="button" />&nbsp;
+                <a href="register.html"><input type="button" name="register" value="Register" class="button" /></a>&nbsp;
+                <a href="../index.php"><button>Home</button></a>&nbsp;
+                <a href="../php/staffLogin.php"><button>Staff</button></a>
+
+            </div>
+            
+        </div>
+        
+        
+        
+        
+    </body>
+</html>

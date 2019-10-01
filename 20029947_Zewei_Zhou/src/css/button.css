@@ -1,0 +1,29 @@
+.button {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2),
+        0 4px 17px 0 rgba(0, 0, 0, 0.19);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+button {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2),
+        0 4px 17px 0 rgba(0, 0, 0, 0.19);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
